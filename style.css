@@ -1,0 +1,42 @@
+#map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    height: 800px;
+    width: 1660px;
+    margin: 10px;
+}
+
+#result{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+}
+
+#resultat2{
+    margin-right: 100px;
+}
+
+#map2 {
+    z-index: 1;
+    margin-left: 1250px;
+    margin-top: 400px;
+    height: 400px;
+    width: 400px;
+}
+
+#button {
+    margin-top: 20px;
+    height: 50px;
+    width: 100px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+
+#a{
+    display: none;
+}
